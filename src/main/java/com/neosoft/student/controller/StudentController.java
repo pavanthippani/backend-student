@@ -42,7 +42,7 @@ import com.neosoft.student.service.StudentService;
 							                .path("/{id}")
 							                .buildAndExpand(addedStudent.getId())
 							                .toUri();
-			return ResponseEntity.ok().body(student);//ResponseEntity.created(location).build();
+			return ResponseEntity.ok().body(student);//ResponseEntity1.created(location).build();
 		}
 		
 		
